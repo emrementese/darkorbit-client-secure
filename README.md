@@ -68,6 +68,8 @@ On Apple Silicon Macs the bundled Flash plugin only runs in the x64 build of Ele
 > npm run electron:x64
 ```
 
+Flash only runs in Electron 11, so `electron` is pinned to 11.5.0 and GitHub reports the Electron advisories against it. See [SECURITY.md](SECURITY.md#known-limitations) for why and how they are handled.
+
 ### Usage
 ##### Start app
 
