@@ -39,6 +39,10 @@ newer Electron version and there is no maintained fork that brings it back. Upgr
 Electron means replacing Flash; until a replacement runs DarkOrbit, `electron` is pinned
 to 11.5.0.
 
+The [Ruffle](https://ruffle.rs) Flash emulator was tested on 31 October 2026 (nightly
+0.8.0, desktop and web builds). It shows the DarkOrbit loading screen but stops loading
+before the game connects to the server, so it cannot replace Flash yet.
+
 ### Why Flash stays on 32.0.0.344
 
 The client ships Flash 32.0.0.344 for Windows and macOS and 32.0.0.371 for Linux.
